@@ -4,70 +4,186 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Fale com um psicólogo online</title>
+		
+		<style>
+	        body {
+	        	font-family: arial, times, Helvetica, sans-serif;
+	        	background:  center/43%  url("undraw.png")
+	        }
+	        
+	        .box {
+	        	color: #003329;
+	            position: absolute;
+	            top: 50%;
+	            left: 50%;
+	            transform: translate(-50%,-50%);
+	            background-color: #00e6b8;
+				padding: 5px;
+	            width: 37%;
+	            opacity: 0.96;
+	            margin-top: 80px;
+	            margin-right: 50px;
+			}
+	        
+	        fieldset {
+	            border: 7px solid #b3ffff;
+	        }
+	        
+	        #h1 {
+				border: 1px double #b3ffff;
+	            padding: 10px;
+	            text-align: center;
+	            background-color: #00cca3;
+				border-radius: 10px;
+	            letter-spacing: 0.2px;
+	            color: white;
+			}
 
+	       select {
+				  width: 50%;
+				  padding: 12px;
+				  border: none;
+				  border-radius: 8px;
+				  background-color: #f1f1f1;
+				  font-size: 15px;
+			}
+			
+			#p {
+	        	text-align: center;
+	        	letter-spacing: 0.5px;
+	        	font-size: 19px;
+	        	color: white;
+			}
+			
+			.p1 {
+				 width: 50%;
+				  padding: 10px;
+				  border: none;
+				  border-radius: 8px;
+				  background-color: #f1f1f1;
+				  text-decoration: none;
+  				margin: 4px 2px;
+  			}
+			
+			.p2 {
+				width: 50%;
+				  padding: 2px;
+				  border: none;
+				  border-radius: 10px;
+				  background-color: #f1f1f1;
+				  text-decoration: none;
+  				margin: 4px 2px;
+  			}
+
+			input[type="password"] {
+				background: none;
+	            border: none;
+	          	outline: none;
+	            color:  #003329;
+	            font-size: 15px;
+	            width: 100%;
+	            letter-spacing: 1px;
+	            padding: 5px;
+			}
+			
+			input[type="text required"] {
+				background: none;
+	            border: none;
+	          	outline: none;
+	            color:  #003329;
+	            font-size: 15px;
+	            width: 100%;
+	            letter-spacing: 1px;
+	            padding: 5px;
+			}
+			
+			input[type="email required"] {
+				background: none;
+	            border: none;
+	          	outline: none;
+	            color:  #003329;
+	            font-size: 15px;
+	            width: 100%;
+	            letter-spacing: 1px;
+	            padding: 5px;
+			}
+			
+			input[type="date"] {
+				background: none;
+	            border: none;
+	          	outline: none;
+	            color:  #003329;
+	            font-size: 15px;
+	            width: 100%;
+	            letter-spacing: 1px;
+	            padding: 5px;
+			}
+			
+			input[type="radio"] {
+				background: none;
+	            border: none;
+	          	outline: none;
+	            color:  #003329;
+	            width: 4%;
+	            letter-spacing: 1.5px;
+	            
+			}
+			
+			input[type="submit"] {
+				background: none;
+	            border: none;
+	          	outline: none;
+	            color:  #003329;
+	            font-size: 15px;
+	            width: 28%;
+	            letter-spacing: 1px;
+	            border-bottom: 2px solid #b3ffff;
+	            padding: 20px;
+		</style>
 </head>
+
 <body>
-	
-	<div>
-		<h1 align="center">Encontre aqui um profissional capacitado para te atender</h1>
-		<p align="center">Preencha o formulário e agende uma consulta online com um de nossos psicólogos cadastrados.</p>
-	
-	</div>
-	<div style="text-align: center;">
-	
-	<form action="http..." method="post">
-		<fieldset>
+	<form action="https://giovanahs.github.io/TecnologiaeQualidadedevida.html" method="post">
+		<div class="box">
+			<fieldset>
+					<h1 id="h1">Encontre aqui um profissional capacitado para te atender</h1>
+					<p id="p"><b>Preencha o formulário e agende uma consulta online com um de nossos psicólogos cadastrados.</b></p>		
+					
 		
-		<table border="2px" width="700" height="100" align="center" >
-		
-		
-			<td>
-				<p><label><b>Nome: </b></label><input type="text required" placeholder="Digite aqui seu nome" id="Nome:" minlength="3" maxlenght="15"></p>
-				
-				<p><label><b>Sobrenome: </b></label><input type="text required" placeholder="Digite aqui seu sobrenome"id="Sobrenome:" minlength="3" maxlenght="30"></p>
+					<p class="p1"><label><b>Nome: </b></label><input type="text required" placeholder="Digite aqui seu nome" id="Nome:" minlength="3" maxlenght="15"></p>
+							
+					<p class="p1"><label><b>Sobrenome: </b></label><input type="text required" placeholder="Digite aqui seu sobrenome"id="Sobrenome:" minlength="3" maxlenght="30"></p>
 
-				<p><label><b>E-mail: </b></label><input type="email required" placeholder="Digite aqui seu e-mail" id="E-mail:" minlength="9" maxlenght="15"></p>
-				
-				<p><label><b>Crie uma senha de acesso: </b></label><input type="password" placeholder="Senha" id="Crie uma senha de acesso:" minlength="8"maxlenght="30"></p>
-			
-			
-			
-			
-				<p><label><b>Escolha uma data: </b></label><input type="date" name="Escolha uma data: ">
+					<p class="p1"><label><b>E-mail: </b></label><input type="email required" placeholder="Digite aqui seu e-mail" id="E-mail:" minlength="9" maxlenght="15"></p>
+							
+					<p class="p1"><label><b>Crie uma senha de acesso: </b></label><input type="password" placeholder="Senha" id="Crie uma senha de acesso:" minlength="8"maxlenght="30"></p>
+						
+					<p class="p1"><label><b>Escolha uma data: </b></label><input type="date" name="Escolha uma data: ">
 
-				
-				<p> <b><optgroup label="Em qual turno você gostaria de ser atendido?"></b></label>
-					<select> 
-						<option value="Manhã">Manhã</option>
-						<option value="Tarde">Tarde</option>
-						<option value="Noite">Noite</option>
-					</select>
-						</optgroup>
-				</p>
-			
-			
-				
-				<p><label><b>Você tem preferência por um profissional de algum sexo específico? Escolha na opção abaixo: </b></label>
-					<label><br><input type="radio" id="Você tem preferência por um profissional de algum sexo específico? Escolha na opção abaixo: " name="Você tem preferência por um profissional de algum sexo específico? Escolha na opção abaixo: "  
-					value="Feminino">Feminino </br></label>
-	    			
-	    			<label><input type="radio" id="Você tem preferência por um profissional de algum sexo específico? Escolha na opção abaixo: " name="Você tem preferência por um profissional de algum sexo específico? Escolha na opção abaixo: " 
-	    			value="Masculino">Masculino </br></label>
-	    			
-	    			<label><input type="radio" id="Você tem preferência por um profissional de algum sexo específico? Escolha na opção abaixo: " name="Você tem preferência por um profissional de algum sexo específico? Escolha na opção abaixo: " 
-	       			value="Indiferente">Indiferente </br></label></p>
+					<p><b><optgroup label="Em qual turno você gostaria de ser atendido?"></b></label>
 
-	       			<p><label><input type="submit" value="Enviar Formulário"></label></p>
-	       	
-	   		</td>
-	       </table>
+				<select> 
+					<option value="Manhã">Manhã</option>
+					<option value="Tarde">Tarde</option>
+					<option value="Noite">Noite</option>
+				</select>
+					</optgroup></p>
 			
-	</div> 
-
-			</fieldset>		
-		</form> 
-
+				<p><label><b>Você tem preferência por um profissional de algum sexo específico? Escolha na opção abaixo: </b></label></p>
+					<p><label class="p2"><input type="radio" id="Você tem preferência por um profissional de algum sexo específico? Escolha na opção abaixo: " name="Você tem preferência por um profissional de algum sexo específico? Escolha na opção abaixo: "  value="Feminino">Feminino </label></p>
+		    			
+		    		<p><label class="p2"><input type="radio" id="Você tem preferência por um profissional de algum sexo específico? Escolha na opção abaixo: " name="Você tem preferência por um profissional de algum sexo específico? Escolha na opção abaixo: " 
+		    			value="Masculino">Masculino </label></p>
+		    			
+		    		<label class="p2"><input type="radio" id="Você tem preferência por um profissional de algum sexo específico? Escolha na opção abaixo: " name="Você tem preferência por um profissional de algum sexo específico? Escolha na opção abaixo: " 
+		       			value="Indiferente">Indiferente </label></p>
+			
+					<p><label class="p2"><input type="submit" value="Enviar Formulário"></label></p>
+			</fieldset>
+		</div>	
+	</form> 
 </body>
+
 </html>
 
 
