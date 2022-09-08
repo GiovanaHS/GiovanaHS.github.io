@@ -1,0 +1,106 @@
+body {
+      font-family: arial, times, Helvetica, sans-serif;
+      background-color: #cce6ff;
+      }
+
+#bodytqv { 
+      font-family: arial, times, Helvetica, sans-serif;
+      background: repeat-y right/60%  url("undraw_Online_test_re_kyfx.png");
+      background-size: 600px;
+
+      }
+
+fieldset {
+      border: 7px solid #b3ffff;
+      }
+          
+#h1 {
+      padding: 30px;
+      margin-top: 20px;
+      margin-right: 50px;
+      margin-left: 50px;
+      text-align: center;
+      background-color: #00cca3;
+      border-radius: 40px;
+      border: 7px double #b3ffff;
+      letter-spacing: 1.2px;
+      color: white;
+      }
+
+#reddit-embed {
+        width: 100%;
+        border: none;
+        height: 620px; 
+        width: 640px;
+        scrolling: no;
+        position: sticky;
+        right: 30%;
+        left: 30%;
+        }
+
+#img {
+        width: 496px;
+        border: none;
+        scrolling: no;
+        position: sticky;
+        right: 40%;
+        left: 30%;
+        }
+
+.p {
+        text-align: justify;
+        letter-spacing: 1px;
+        position: absolute;
+        right: 10%;
+        left: 10%;
+        font-size: 17px;
+        line-height: 1.5;
+        color: black;
+        background-color: #ecf2f9;
+        opacity: 0.9;
+        padding: 25px;
+        }
+      
+.ul {
+        width: 50%;
+        padding: 10px;
+        border: solid;
+        border-color: floralwhite;
+        border-radius: 8px;
+        background-color: skyblue;
+        line-height: 1.7;
+        }
+      
+.p1 {
+        width: 50%;
+        padding: 10px;
+        border: none;
+        border-radius: 8px;
+        background-color: #f1f1f1;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+        }
+
+.p2 {
+        width: 50%;
+        padding: 2px;
+        border: none;
+        border-radius: 10px;
+        background-color: #f1f1f1;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+        }
+
+.input {
+        background: none;
+        border: none;
+        border-bottom: 1px solid #b3ffff;
+        outline: none;
+        color:  #003329;
+        font-size: 15px;
+        width: 100%;
+        letter-spacing: 1px;
+        padding: 20px;
+        }
