@@ -29,16 +29,8 @@ fieldset {
       }
 
 #reddit-embed {
-         position: absolute; 
-         top: 500px;
-         left: 600px;
-         scrolling: no;
-      width:500px;
-      
-      
-       
-      
-        }
+         position: sticky; 
+         }
 
 #img {
         width: 496px;
