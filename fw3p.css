@@ -1,6 +1,9 @@
-#body {
+body {
       font-family: arial, times, Helvetica, sans-serif;
       background-color: #cce6ff;
+      position: absolute;
+      background-image: right/60% url("undraw_Healthy_habit_re_sy1e.png");
+      background-size: 600px;
       }
 
 #bodytqv { 
@@ -69,6 +72,7 @@ fieldset {
         border-radius: 8px;
         background-color: skyblue;
         line-height: 1.7;
+        position: absolute;
         }
       
 .p1 {
@@ -80,6 +84,7 @@ fieldset {
         text-decoration: none;
         margin: 4px 2px;
         cursor: pointer;
+        position: absolute;
         }
 
 .p2 {
@@ -91,6 +96,7 @@ fieldset {
         text-decoration: none;
         margin: 4px 2px;
         cursor: pointer;
+        position: absolute;
         }
 
 .input {
@@ -103,4 +109,5 @@ fieldset {
         width: 100%;
         letter-spacing: 1px;
         padding: 20px;
+        position: absolute;
         }
