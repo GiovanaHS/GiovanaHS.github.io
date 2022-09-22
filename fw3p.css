@@ -1,6 +1,8 @@
 body {
       font-family: arial, times, Helvetica, sans-serif;
       background-color: #cce6ff;
+      background: repeat-y right/60% url("undraw_Healthy_habit_re_sy1e.png");
+      background-size: 600px;
       }
 
 #bodytqv { 
