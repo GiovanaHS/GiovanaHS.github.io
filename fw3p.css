@@ -29,7 +29,7 @@ fieldset {
       }
 
 #reddit-embed {
-         position: sticky; 
+         position: fixed; 
          top: 500px;
          left: 600px;
          scrolling: no;
