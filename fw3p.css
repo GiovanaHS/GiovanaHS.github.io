@@ -1,7 +1,6 @@
 #body {
       font-family: arial, times, Helvetica, sans-serif;
       background-color: #cce6ff;
-      
       background-image: url("undraw_healthy_habit_re_sy1e.svg");
       background-size: 600px;
       }
@@ -9,8 +8,7 @@
 #bodytqv { 
       font-family: arial, times, Helvetica, sans-serif;
       background: repeat-y right/60%  url("undraw_online_test_re_kyfx.svg");
-      background-size: 600px;
-
+      background-size: 500px;
       }
 
 fieldset {
@@ -36,7 +34,7 @@ fieldset {
         height: 620px; 
         width: 640px;
         scrolling: no;
-        position: sticky;
+        position: static;
         right: 30%;
         left: 30%;
         }
