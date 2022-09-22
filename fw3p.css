@@ -36,6 +36,10 @@ fieldset {
         scrolling: no;
         right: 30%;
         left: 30%;
+      position: sticky;
+       top: 0;
+      left:0;
+      
         }
 
 #img {
