@@ -8,7 +8,7 @@
 #bodytqv { 
       font-family: arial, times, Helvetica, sans-serif;
       background: repeat-y right/60%  url("undraw_online_test_re_kyfx.svg");
-      background-size: 500px;
+      background-size: 570px;
       }
 
 fieldset {
@@ -34,7 +34,7 @@ fieldset {
         height: 620px; 
         width: 640px;
         scrolling: no;
-        position: static;
+        position: absolute;
         right: 30%;
         left: 30%;
         }
