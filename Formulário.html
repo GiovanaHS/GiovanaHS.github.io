@@ -6,184 +6,141 @@
 	<title>Fale com um psicólogo online</title>
 		
 		<style>
-	        body {
-	        	font-family: arial, times, Helvetica, sans-serif;
-	        	background:  center/43%  url("undraw_blooming_re_2kc4 (1).svg")
-	        }
-	        
-	        .box {
-	        	color: #003329;
-	            position: absolute;
-	            top: 50%;
-	            left: 50%;
-	            transform: translate(-50%,-50%);
-	            background-color: #00e6b8;
-				padding: 5px;
-	            width: 37%;
-	            opacity: 0.96;
-	            margin-top: 80px;
-	            margin-right: 50px;
-			}
-	        
-	        fieldset {
-	            border: 7px solid #b3ffff;
-	        }
-	        
-	        #h1 {
-				border: 1px double #b3ffff;
-	            padding: 10px;
-	            text-align: center;
-	            background-color: #00cca3;
-				border-radius: 10px;
-	            letter-spacing: 0.2px;
-	            color: white;
-			}
+			
+			* {margin: 0;
+			  padding: 0;
+			  box-sizing: border-box;
+			  position: relative;
+			  font-family: 'Aboreto', arial, times, Helvetica, sans-serif;}
 
-	       select {
-				  width: 50%;
-				  padding: 12px;
-				  border: none;
-				  border-radius: 8px;
-				  background-color: #f1f1f1;
-				  font-size: 15px;
-			}
-			
-			#p {
-	        	text-align: center;
-	        	letter-spacing: 0.5px;
-	        	font-size: 19px;
-	        	color: white;
-			}
-			
-			.p1 {
-				 width: 50%;
-				  padding: 10px;
-				  border: none;
-				  border-radius: 8px;
-				  background-color: #f1f1f1;
-				  text-decoration: none;
-  				margin: 4px 2px;
-  			}
-			
-			.p2 {
-				width: 50%;
-				  padding: 2px;
-				  border: none;
-				  border-radius: 10px;
-				  background-color: #f1f1f1;
-				  text-decoration: none;
-  				margin: 4px 2px;
-  			}
+			body {background:  center/43%  url("undraw_blooming_re_2kc4 (1).svg");}  
 
-			input[type="password"] {
-				background: none;
-	            border: none;
-	          	outline: none;
-	            color:  #003329;
-	            font-size: 15px;
-	            width: 100%;
-	            letter-spacing: 1px;
-	            padding: 5px;
-			}
-			
-			input[type="text required"] {
-				background: none;
-	            border: none;
-	          	outline: none;
-	            color:  #003329;
-	            font-size: 15px;
-	            width: 100%;
-	            letter-spacing: 1px;
-	            padding: 5px;
-			}
-			
-			input[type="email required"] {
-				background: none;
-	            border: none;
-	          	outline: none;
-	            color:  #003329;
-	            font-size: 15px;
-	            width: 100%;
-	            letter-spacing: 1px;
-	            padding: 5px;
-			}
-			
-			input[type="date"] {
-				background: none;
-	            border: none;
-	          	outline: none;
-	            color:  #003329;
-	            font-size: 15px;
-	            width: 100%;
-	            letter-spacing: 1px;
-	            padding: 5px;
-			}
-			
-			input[type="radio"] {
-				background: none;
-	            border: none;
-	          	outline: none;
-	            color:  #003329;
-	            width: 4%;
-	            letter-spacing: 1.5px;
-	            
-			}
-			
-			input[type="submit"] {
-				background: none;
-	            border: none;
-	          	outline: none;
-	            color:  #003329;
-	            font-size: 15px;
-	            width: 28%;
-	            letter-spacing: 1px;
-	            border-bottom: 2px solid #b3ffff;
-	            padding: 20px;
-		</style>
-</head>
+	        .top {width: 80%;
+				margin: 0 auto;
+				text-align: center;
+				padding: 1em 0;
+				letter-spacing: 0.7px;
+				background-color: white;
+				color: yellowgreen;}
+
+			.top p {font-size: 1.2em;
+				margin: .6rem 0;
+				color: #008080;}	
+
+			form {width: 90%;
+				max-width: 700px;
+				margin: 0 auto;
+				padding: 2em 0;}	 
+
+			.container {width: 80%;
+				margin: 0 auto;
+				padding: 2rem 0;
+				background-color: lightblue;
+				opacity: 0.9;
+				border-radius: 5px;
+				color: #008080;
+				border: solid 1px; 
+				border-color: yellowgreen;}	 
+
+			.intro {width: 100%;
+				border: none;
+				font-size: 16px;}
+
+			.intro label, .intro input {display: block;}
+
+			.intro input {margin: 1em 0;
+			  	padding: 10px;
+			  	width: 80%;
+			  	border-radius: 10px;
+			  	border: solid 3px yellowgreen;}
+
+			.intro label {margin-left: 10px;}	
+
+			.selections {font-size: 16px;
+				border: none;
+				margin-top: 5px;}
+
+			.selections > * {margin: .5em 0 0 .5em;}
+
+			#dropdown {padding: 5px;
+			 	margin-bottom: 5px;
+			 	border: solid 3px yellowgreen;}
+
+			#submit {display: inline-block;
+				padding: .5rem 20px;
+				font-size: 1.0rem;
+				border: 2px solid rgb(84, 201, 240);
+				background-color: white;
+				margin: 1em auto;
+				border: solid 3px greenyellow;
+				border-radius: 8px;
+				color: #008080;}
+
+			#submit:hover {background-color: yellowgreen;
+			  	color: white;
+			  	border: 2px solid yellow;
+			  	cursor: pointer;} 	
+
+		 </style>
 
 <body>
-	<form action="https://giovanahs.github.io/TecnologiaeQualidadedevida.html" method="post">
-		<div class="box">
-			<fieldset>
-					<h1 id="h1">Encontre aqui um profissional capacitado para te atender</h1>
-					<p id="p"><b>Preencha o formulário e agende uma consulta online com um de nossos psicólogos cadastrados.</b></p>		
-					
-		
-					<p class="p1"><label><b>Nome: </b></label><input type="text required" placeholder="Digite aqui seu nome" id="Nome:" minlength="3" maxlenght="15"></p>
-							
-					<p class="p1"><label><b>Sobrenome: </b></label><input type="text required" placeholder="Digite aqui seu sobrenome"id="Sobrenome:" minlength="3" maxlenght="30"></p>
-
-					<p class="p1"><label><b>E-mail: </b></label><input type="email required" placeholder="Digite aqui seu e-mail" id="E-mail:" minlength="9" maxlenght="15"></p>
-							
-					<p class="p1"><label><b>Crie uma senha de acesso: </b></label><input type="password" placeholder="Senha" id="Crie uma senha de acesso:" minlength="8"maxlenght="30"></p>
-						
-					<p class="p1"><label><b>Escolha uma data: </b></label><input type="date" name="Escolha uma data: ">
-
-					<p><b><optgroup label="Em qual turno você gostaria de ser atendido?"></b></label>
-
-				<select> 
-					<option value="Manhã">Manhã</option>
-					<option value="Tarde">Tarde</option>
-					<option value="Noite">Noite</option>
-				</select>
-					</optgroup></p>
+		<form action="https://giovanahs.github.io/TecnologiaeQualidadedevida.html" method="post">
+		<div class="top">
+				<h1 id="title">Encontre aqui um profissional capacitado para te atender</h1>
+				<p id="description"><b>Preencha o formulário e agende uma consulta online com um de nossos psicólogos cadastrados.</b></p>
+		</div>			
 			
-				<p><label><b>Você tem preferência por um profissional de algum sexo específico? Escolha na opção abaixo: </b></label></p>
-					<p><label class="p2"><input type="radio" id="Você tem preferência por um profissional de algum sexo específico? Escolha na opção abaixo: " name="Você tem preferência por um profissional de algum sexo específico? Escolha na opção abaixo: "  value="Feminino">Feminino </label></p>
+		<form id="form">
+        	<div class="container">
+          		<fieldset class="intro">
+					
+					<p><label><b>Nome: </b><input type="text required" placeholder="Digite aqui seu nome" id="Nome:" minlength="3" maxlenght="15"></label></p>
+							
+					<p><label><b>Sobrenome: </b><input type="text required" placeholder="Digite aqui seu sobrenome"id="Sobrenome:" minlength="3" maxlenght="30"></label></p>
+
+					<p><label><b>E-mail: </b><input type="email required" placeholder="Digite aqui seu e-mail" id="E-mail:" minlength="9" maxlenght="15"></label></p>
+							
+					<p><label><b>Crie uma senha de acesso: </b><input type="password" placeholder="Senha" id="Crie uma senha de acesso:" minlength="8"maxlenght="30"></label></p>
+
+					<p><b><label for="dropdown">Escolha uma data: </b><label><input type="date" name="Escolha uma data: "></p>
+				
+				</fieldset>
+
+				<fieldset class="selections">
+
+					
+
+					<p><b><label for="dropdown">Em qual turno você gostaria de ser atendido?</b></label></p>
+
+					<select id="dropdown"> 
+						<option value="Manhã">Manhã</option>
+						<option value="Tarde">Tarde</option>
+						<option value="Noite">Noite</option>
+					</select>
+					
+					<p><b>Você tem preferência por um profissional de algum sexo específico? Escolha na opção abaixo: </b></p>
+					
+					<p><label><input type="radio" id="Você tem preferência por um profissional de algum sexo específico? Escolha na opção abaixo: " name="Você tem preferência por um profissional de algum sexo específico? Escolha na opção abaixo: "  value="Feminino">Feminino </label></p>
 		    			
-		    		<p><label class="p2"><input type="radio" id="Você tem preferência por um profissional de algum sexo específico? Escolha na opção abaixo: " name="Você tem preferência por um profissional de algum sexo específico? Escolha na opção abaixo: " 
+		    		<p></label><input type="radio" id="Você tem preferência por um profissional de algum sexo específico? Escolha na opção abaixo: " name="Você tem preferência por um profissional de algum sexo específico? Escolha na opção abaixo: " 
 		    			value="Masculino">Masculino </label></p>
 		    			
-		    		<label class="p2"><input type="radio" id="Você tem preferência por um profissional de algum sexo específico? Escolha na opção abaixo: " name="Você tem preferência por um profissional de algum sexo específico? Escolha na opção abaixo: " 
+		    		<p><label><input type="radio" id="Você tem preferência por um profissional de algum sexo específico? Escolha na opção abaixo: " name="Você tem preferência por um profissional de algum sexo específico? Escolha na opção abaixo: " 
 		       			value="Indiferente">Indiferente </label></p>
-			
-					<p><label class="p2"><input type="submit" value="Enviar Formulário"></label></p>
-			</fieldset>
-		</div>	
-	</form> 
-</body>
+				
+				</fieldset>
 
-</html>
+				<div>
+        			
+        			<button id="submit" type="submit" value="Enviar Formulário">Enviar Formulário </button>
+					
+				</div>	
+		</form> 
+</body>
+</html>	
+
+
+
+
 
 
