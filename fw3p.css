@@ -29,6 +29,11 @@ fieldset {
       }
 
 #reddit-embed {
+      "border: none;" 
+      height="621" 
+      width="640"
+      position: sticky;
+      left: 500px;
         
       
          }
