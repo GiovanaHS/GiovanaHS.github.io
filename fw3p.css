@@ -31,7 +31,9 @@ fieldset {
 #reddit-embed {
          position: sticky; 
          top: 500px;
-         left: 300px;
+         left: 600px;
+         scrolling: no;
+      
        
       
         }
