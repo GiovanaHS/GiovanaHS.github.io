@@ -29,7 +29,16 @@ fieldset {
       }
 
 #reddit-embed {
-         position: sticky; 
+        position: sticky; 
+        width: 100%;
+        border: none;
+        height: 620px; 
+        width: 640px;
+        scrolling: no;
+       
+        right: 30%;
+        left: 30%;
+      
          }
 
 #img {
