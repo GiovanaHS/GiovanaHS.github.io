@@ -14,7 +14,7 @@
 fieldset {
       border: 7px solid #b3ffff;
       }
-@media (max-width: 480px){          
+         
 #h1 {
       padding: 30px;
       margin-top: 20px;
@@ -28,7 +28,7 @@ fieldset {
       color: white;
       }
 
-
+@media (max-width: 480px){ 
 
 #img {
         width: 496px;
