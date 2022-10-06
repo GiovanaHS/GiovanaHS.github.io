@@ -28,7 +28,6 @@ fieldset {
       color: white;
       }
 
-@media (max-width: 480px){ 
 
 #img {
         width: 496px;
@@ -101,3 +100,61 @@ fieldset {
         position: absolute;
         }
 
+@media (max-width: 480px){
+
+      #img {
+        width: 100%;
+        border: none;
+        scrolling: no;
+        position: sticky;
+        right: 40%;
+        left: 30%;
+        }
+
+      .ul {
+        width: 100%;
+        padding: 10px;
+        border: solid;
+        border-color: floralwhite;
+        border-radius: 8px;
+        background-color: skyblue;
+        line-height: 1.7;
+        }
+      
+      .p1 {
+        width: 50%;
+        padding: 10px;
+        border: none;
+        border-radius: 8px;
+        background-color: #f1f1f1;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: absolute;
+        }
+
+      .p2 {
+        width: 100%;
+        padding: 2px;
+        border: none;
+        border-radius: 10px;
+        background-color: #f1f1f1;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: absolute;
+        }
+
+      .input {
+        background: none;
+        border: none;
+        border-bottom: 1px solid #b3ffff;
+        outline: none;
+        color:  #003329;
+        font-size: 15px;
+        width: 100%;
+        letter-spacing: 1px;
+        padding: 20px;
+        position: absolute;
+        }
+}
