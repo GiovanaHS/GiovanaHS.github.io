@@ -145,16 +145,11 @@ fieldset {
         position: absolute;
         }
 
-      .input {
-        background: none;
-        border: none;
-        border-bottom: 1px solid #b3ffff;
-        outline: none;
-        color:  #003329;
-        font-size: 15px;
-        width: 100%;
-        letter-spacing: 1px;
-        padding: 20px;
-        position: absolute;
-        }
+     #body {
+      font-family: arial, times, Helvetica, sans-serif;
+      background-color: #cce6ff;
+      background-image: url("undraw_healthy_habit_re_sy1e.svg");
+      background-size: 600px;
+      width: 100%;
+      }
 }
