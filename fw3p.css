@@ -145,12 +145,13 @@ fieldset {
         position: absolute;
         }
 
-     #body {
+    #bodytqv { 
       font-family: arial, times, Helvetica, sans-serif;
-      background-color: #cce6ff;
-      background-image: url("undraw_healthy_habit_re_sy1e.svg");
+      background: repeat-y right/60%  url("undraw_online_test_re_kyfx.svg");
+      background-size: 570px;
       width: 100%;
+      }
       
      
-      }
+      
 }
