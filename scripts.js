@@ -1,10 +1,10 @@
-function menuShow() {
-    let menuMobile = document.querySelector('.mobile-menu');
-    if (menuMobile.classList.contains('open')) {
-        menuMobile.classList.remove('open');
-        document.querySelector('.icon').src = "assets/img/menu_white_36dp.svg";
-    } else {
-        menuMobile.classList.add('open');
-        document.querySelector('.icon').src = "assets/img/close_white_36dp.svg";
-    }
-}
+    
+
+    document.write ("Ana Beatriz<br>");
+    document.write ("Ano - 2022<br>");
+    document.write ("Twitter: @Bea5<br>");
+    document.write ("Facebook: Bea5<br>");
+    document.write ("Instagram: AnaB5<br>");
+    document.write ("Linkedin: Ana Beatriz<br>");
+    document.write ("Sexo: Feminino<br>");
+    document.write ("Localização - polo: Higienópolis");
