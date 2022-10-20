@@ -1,5 +1,5 @@
     
-
+    var Ana Beatriz = "Ana Beatriz";
     document.write ("Ana Beatriz<br>");
     document.write ("Ano - 2022<br>");
     document.write ("Twitter: @Bea5<br>");
