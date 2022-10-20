@@ -148,9 +148,15 @@ fieldset {
     #bodytqv { 
       font-family: arial, times, Helvetica, sans-serif;
       background: repeat-y right/60%  url("undraw_online_test_re_kyfx.svg");
-      
       width: 100%;
       }
+      
+    #footer { 
+      position: absolute;
+	top:100%;
+      color: black;
+      }
+				} 
       
      
       
