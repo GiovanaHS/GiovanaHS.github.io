@@ -150,14 +150,27 @@ fieldset {
       background: repeat-y right/60%  url("undraw_online_test_re_kyfx.svg");
       width: 100%;
       }
-      
-    #footer { 
-      position: absolute;
-	top:100%;
-      color: black;
-      }
-				} 
+    
+#page-container {
+	position: relative;
+	right: 550px;
+	}
+			
+#content-wrap {
+	padding-bottom: 2.5rem;
+	right: 600px;
+	}
+
+		
+#footer {
+  	position: absolute;
+  	top:100%;
+	color: black; 
+	height: 2.5rem;            
+	}  
+   
+				
       
      
       
-}
+
