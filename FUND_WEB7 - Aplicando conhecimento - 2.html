@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="windth=device-windth, initial-scale=1.0">
+</head>
+<body>
+	
+	<script type="text/javascript">
+		var cortime = prompt("Escolha uma cor: preto, azul ou vermelho");
+		var cortime = cortime.toUpperCase();
+		
+		if (cortime == "preto") {
+			document.write("O esporte é o Futebol" + "<br>");
+			document.write("O time é o Corinthians" + "<br>");
+			document.write("O time é formado por 11 jogadores" + "<br>");
+			document.write("A cor principal do clube é o preto" + "<br>");
+			document.write("<img src="CorinthiansPaulista.png">");
+		
+		} else if (cortime == "azul") {
+			document.write("O esporte é o Basquete" + "<br>");
+			document.write("O time é o Memphis Grizzlies" + "<br>");
+			document.write("O time é formado por 5 jogadores" + "<br>");
+			document.write("A cor principal da franquia é o azul" + "<br>");
+			document.write("<img src="MemphisGrizzlies.png">");
+
+		} else if (cortime == "vermelho") {
+			document.write("O esporte é o Futebol Americano" + "<br>");
+			document.write("O time é o Kansas City Chiefs" + "<br>");
+			document.write("O time é formado por 11 jogadores" + "<br>");
+			document.write("A cor principal da franquia é o vermelho" + "<br>");
+			document.write("<img src="KansasCityChiefslogo.png">");
+		
+		} else {
+			document.write("Não há informações associadas a essa cor, por favor, escolha entre: <b>preto, azul ou vermelho</b>");
+		}
+
+	</script>
+
+</body>
+</html>
