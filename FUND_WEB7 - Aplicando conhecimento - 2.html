@@ -7,35 +7,36 @@
 <body>
 	
 	<script type="text/javascript">
-		var cortime = prompt("Escolha uma cor: preto, azul ou vermelho");
-		var cortime = cortime.toUpperCase();
-		
-		if (cortime == "PRETO") {
-			document.write("O esporte é o Futebol" + "<br>");
-			document.write("O time é o Corinthians" + "<br>");
-			document.write("O time é formado por 11 jogadores" + "<br>");
-			document.write("A cor principal do clube é o preto" + "<br>");
-			document.write("<img src="CorinthiansPaulista.png">");
-		
-		} else if (cortime == "AZUL") {
-			document.write("O esporte é o Basquete" + "<br>");
-			document.write("O time é o Memphis Grizzlies" + "<br>");
-			document.write("O time é formado por 5 jogadores" + "<br>");
-			document.write("A cor principal da franquia é o azul" + "<br>");
-			document.write("<img src="MemphisGrizzlies.png">");
+		function escolher(){
+		var escolha = prompt('Digite AZUL, PRETO ou VERMELHO').toLowerCase(); 
 
-		} else if (cortime == "VERMELHO") {
-			document.write("O esporte é o Futebol Americano" + "<br>");
-			document.write("O time é o Kansas City Chiefs" + "<br>");
-			document.write("O time é formado por 11 jogadores" + "<br>");
-			document.write("A cor principal da franquia é o vermelho" + "<br>");
-			document.write("<img src="KansasCityChiefslogo.png">");
-		
-		} else {
-			document.write("Não há informações associadas a essa cor, por favor, escolha entre: <b>preto, azul ou vermelho</b>");
+		if (escolha == 'azul'){
+		document.write(esporte[0], '<br>', esporte[1], '<br>', esporte[2]);
+		document.write('<br/></br/><img src="MemphisGrizzlies.png">');
 		}
-
+		if (escolha == 'preto'){
+		document.write(esporte[4], '<br>', esporte[5], '<br>', esporte[6]);
+		document.write('<br/></br/><img src="CorinthiansPaulista.png">');
+		}
+		if (escolha == 'vermelho'){
+		document.write(esporte[8], '<br>', esporte[9], '<br>', esporte[10]);
+		document.write('<br/></br/><img src="KansasCityChiefslogo.png">');
+		} 
+		else {
+		document.write("Não há informações associadas a essa cor, por favor, escolha entre: <b>preto, azul ou vermelho</b>");
+		}
+		}	
 	</script>
+		</head>
+		<body>
+	<script>
+		var esporte;
+		esporte = ['Basquete', ' Memphis Grizzlies', ' 5', ' Azul', ' Futebol', ' Corinthians Paulista', ' 11', ' Preto e branco', ' Futebol Americano', ' Kansas City Chiefs', ' 11', ' Vermelho'];
+		document.write('<h2> Array esportivo </h2><br>', esporte);
+	</script>
+		<br/> <br/>
+		<button onclick="escolher();"> Faça a sua escolha </button>
 
 </body>
 </html>
+
